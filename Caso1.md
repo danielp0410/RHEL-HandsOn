@@ -16,7 +16,7 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 12. Elimine el archivo .....
 13. Envie la salida estandar del comando netstat -ntpl al archivo /tmp/puertos_tcp.txt (Si no esta instalado el paquete netstat instalelo
 14. Incluya este mensaje en el archivo /etc/issue, para que cuadno un usuario haga login visualice esta informacion
-15. Busque en el el archivo de log /var/log/message o /var/log/secure los logins exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
+15. Busque en el el archivo de log /var/log/message o /var/log/secure los **logins** exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
 
 ds1. Envie el archivo kickstar como plantilla 
 2. Mantener actrualizado el sistema
