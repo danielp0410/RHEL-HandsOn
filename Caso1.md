@@ -14,13 +14,22 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 10. Debe crear una carpeta llamada /compartida en la que el usuario administrativo pueda leer y escribir (con el objetivo de poner archivos de configuración, reportes, logs, archivos temporales
 11. Dentro de esta carpeta /compartida, debe crear un primer archivo comprimido (no importa la herramienta) con el backup de la carpeta /etc
 12. Elimine el archivo .....
-13. 
+13. Envie la salida estandar del comando netstat -ntpl al archivo /tmp/puertos_tcp.txt (Si no esta instalado el paquete netstat instalelo
+14. Incluya este mensaje en el archivo /etc/issue, para que cuadno un usuario haga login visualice esta informacion
+15. Busque en el el archivo de log /var/log/message o /var/log/secure los logins exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
 
 ds1. Envie el archivo kickstar como plantilla 
 2. Mantener actrualizado el sistema
+3. 
 
 
 Todas las configuraciones deben sobrevivir a un reinicio
 
 
 # Instrucciones
+
+Los casos de uso pueden ser aplicados sobre sistema operativos, RHEL7, RHEL8, CentOS7, CentOS8
+
+Si tiene la posibilidad de contar con un sistema de maquinas virtuales en su portatil y/o laboratorio local, le recomiendo hacer la instalacion desde cero como se indica en el punto numero 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
+
+
