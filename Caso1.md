@@ -13,6 +13,8 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 9. La contraseña de este usuario debe caducar cada 3 meses
 10. Debe crear una carpeta llamada /compartida en la que el usuario administrativo pueda leer y escribir (con el objetivo de poner archivos de configuración, reportes, logs, archivos temporales
 11. Dentro de esta carpeta /compartida, debe crear un primer archivo comprimido (no importa la herramienta) con el backup de la carpeta /etc
+12. Elimine el archivo .....
+13. 
 
 ds1. Envie el archivo kickstar como plantilla 
 2. Mantener actrualizado el sistema
