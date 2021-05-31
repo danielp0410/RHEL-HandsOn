@@ -124,7 +124,7 @@ echo >> caso2.txt
 
 echo "13 Indique la versión exacta del sistema operativo"
 echo "Punto 13" >> caso2.txt
-echo -n  "   Nombre del S.O, version, release:"
+echo -n  "   Nombre del S.O, version, release: "
 read so
 echo $so >> caso2.txt
 echo >> caso2.txt
@@ -137,7 +137,7 @@ echo >> caso2.txt
 
 echo "15. Cree un enlace simbólico llamado /guias/config/grupos apuntando al archivo /etc/group"
 echo "Punto 15" >> caso2.txt
-ls -l /guias/config/grupos & >> caso2.txt
+ls -l /guias/config/grupos &>> caso2.txt
 echo >> caso2.txt
 
 echo "16. Incluya el mensaje "El problema no es problema" en el archivo /etc/motd, para que cuando un usuario haga login se muestra el MOTD (mensaje del dia)"
@@ -158,6 +158,4 @@ read fs1
 echo $fs1 >> caso2.txt
 df -Th / >> caso2.txt
 
-read 
-echo >> caso2.txt
 
