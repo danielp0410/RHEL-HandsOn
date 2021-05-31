@@ -1,5 +1,6 @@
-![Ref](Images/red-hat-logo-d-sample_2.png)
 # Caso No. 1
+
+![Ref](Images/red-hat-logo-d-sample_2.png)
 
 
 ## Descripcion del Caso
