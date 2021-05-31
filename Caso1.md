@@ -5,9 +5,9 @@
 
 ## Descripcion del Caso
 
-El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**, teniendo en cuenta que esta actividad la debe realizar múltiples veces, y antes de ser llevada a producción debe ser probada y validada por múltiples equipos, entre ellos el de seguridad, Le han solicitado que previo a dicha implementación productiva, quisiera contar con un servidor de sirva como plantilla, el cual cumpla con los siguientes requisitos previos a la entrega:
+El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**, teniendo en cuenta que esta actividad la debe realizar múltiples veces, y antes de ser llevada a producción debe ser probada y validada por múltiples equipos, entre ellos el de seguridad, Le han solicitado que previo a dicha implementación productiva, quisiera contar con un servidor de sirva como plantilla, el cual cumpla con los siguientes requisitos previos a la entrega
 
-## Actividades a realizar
+## Actividades a realizar
 
 1. Idealmente debe ser una instalación fresca y nueva. (iniciando desde 0)
 2. Debe estar full actualizado a la fecha (no debe tener actualizaciones pendientes)
@@ -35,9 +35,15 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 
 # Instrucciones
 
-Los casos de uso pueden ser aplicados sobre sistema operativos, RHEL7, RHEL8, CentOS7, CentOS8
+Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
 Si tiene la posibilidad de contar con un sistema de maquinas virtuales en su portatil y/o laboratorio local, le recomiendo hacer la instalacion desde cero como se indica en el punto numero 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
+
+https://www.katacoda.com/courses/centos/playground
+
+Con la limitacion que este ambiente unicamente dura 10 minutos, asi que deberia sacar las evidencias de los resultados durante este tiempo
+
+
 
 
 [Volver](README.md) 
