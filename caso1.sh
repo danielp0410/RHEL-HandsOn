@@ -46,7 +46,7 @@ echo >> caso1.txt
 
 echo  "2. Debe estar full actualizado a la fecha (no debe tener actualizaciones pendientes)"
 echo "Punto 2" >> caso1.txt
-yum -y update >> caso1.txt
+yum update --assumeno >> caso1.txt
 echo >> caso1.txt
 
 echo  "3. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)"
