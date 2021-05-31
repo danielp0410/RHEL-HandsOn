@@ -14,7 +14,7 @@ Los Pre-requisitos para la instalación del software son:
 2. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
 3. Debe tener el servicio de SELinux activo
 4. Debe tener el servicio de firewalld en ejecución y con los puertos 22 (SSH) y el servicio de firewall *samba* 
-5. El servicio de SSH **NO** debe permitir conexiones del usuario root
+5. El servicio de SSH **NO** debe permitir hacer sessiones graficas por SSH (X11Forwarding)
 6. Debe crear cinco (5) usuarios adicional con su respectivas contraseñas seguras asignadas: compras, comercial, ventas, administrativo, soporte
 7. Todos estos usuario deben pertenecer a un grupo adicional llamado *ahino*
 8. Las contraseñas de estos usuarios debe caducar cada 3 meses
