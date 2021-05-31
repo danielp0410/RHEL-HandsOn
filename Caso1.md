@@ -69,4 +69,9 @@ sh caso1.sh
 *NOTA 3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus conocimientos
 
 
+
+
+
+[Caso No. 2](Caso2.md) 
+
 [Volver](README.md) 
