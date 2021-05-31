@@ -2,9 +2,9 @@
 
 El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**, teniendo en cuenta que esta actividad la debe realizar múltiples veces, y antes de ser llevada a producción debe ser probada y validada por múltiples equipos, entre ellos el de seguridad, Le han solicitado que previo a dicha implementación productiva, quisiera contar con un servidor de sirva como plantilla, el cual cumpla con los siguientes requisitos previos a la entrega:
 
-1. Debe ser una instalación fresca y nueva. (iniciando desde 0)
+1. Idealmente debe ser una instalación fresca y nueva. (iniciando desde 0)
 2. Debe estar full actualizado a la fecha (no debe tener actualizaciones pendientes)
-3. Debe tener red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
+3. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
 4. Debe tener el servicio de SELinux activo
 5. Debe tener el servicio de firewalld en ejecución y con los puertos 22 (SSH) y 5432 (PostgreSQL) abiertos.
 6. El servicio de SSH **NO** debe permitir conexiones del usuario root
@@ -17,6 +17,7 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 13. Envie la salida estandar del comando netstat -ntpl al archivo /tmp/puertos_tcp.txt (Si no esta instalado el paquete netstat instalelo
 14. Incluya este mensaje en el archivo /etc/issue, para que cuadno un usuario haga login visualice esta informacion
 15. Busque en el el archivo de log /var/log/message o /var/log/secure los **logins** exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
+16. La zona horarioa debe ser America/Bogota
 
 ds1. Envie el archivo kickstar como plantilla 
 2. Mantener actrualizado el sistema
