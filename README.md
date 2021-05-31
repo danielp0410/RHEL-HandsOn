@@ -1,5 +1,5 @@
 # RHEL-HandsOn
-![Ref](images/red-hat-logo-d-sample_2.png)
+![Ref](mages/red-hat-logo-d-sample_2.png)
 
 Repositorio con una serie de ejercicios para poner en practica los conocimientos aprendidos durante los cursos RH124 y RH134
 
