@@ -51,10 +51,22 @@ En cada uno de los pasos mensionados anteriormente enviar la salida de los coman
 ## Automatica
 Se creo un script llamado `caso1.sh` que se encargara de ejecutar los diferentes comandos para validar las evidencias de forma automatica, generando una salida en el archivo de texto caso1.txt el cual se le solicitara que envie como evidencia
 
+Si su maquina cuenta con internet, puede ejecutar este comando en su maquina Linux
+```
+# wget https://raw.githubusercontent.com/jmanuelcalvo/RHEL-HandsOn/main/caso1.sh
+```
+y luego ejecutelo como usuario root sobre su maquina para la calificacion
+```
+sh caso1.sh 
+```
+
+
 # NOTAS
-NOTA1: Este script de validacion debe ejecutarse como usuario root
-NOTA2: Tenga en cuanta que este script busca los nombres exactos de los archivos solicitados
-NOTA3: Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus concimientos
+*NOTA1:* Este script de validacion debe ejecutarse como usuario root
+
+*NOTA2:* Tenga en cuanta que este script busca los nombres exactos de los archivos solicitados
+
+*NOTA3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus concimientos
 
 
 
