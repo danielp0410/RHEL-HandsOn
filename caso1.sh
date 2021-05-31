@@ -137,6 +137,7 @@ systemctl is-enabled sshd >> caso1.txt
 
 
 echo "18. Envie el archivo kickstar como plantilla "
+echo "Punto 18" >> caso1.txt
 echo -n "escriba la Ruta completa del archivo kickstart generado (ej: /root/archivo-ks.cfg):"
 read kickstart
 echo $kickstart >> caso1.txt
