@@ -160,3 +160,4 @@ df -Th / >> caso2.txt
 
 read 
 echo >> caso2.txt
+
