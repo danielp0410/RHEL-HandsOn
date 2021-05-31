@@ -20,10 +20,10 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 9. La contraseña de este usuario debe caducar cada 3 meses
 10. Debe crear una carpeta llamada /compartida en la que el usuario administrativo pueda leer y escribir (con el objetivo de poner archivos de configuración, reportes, logs, archivos temporales
 11. Dentro de esta carpeta /compartida, debe crear un primer archivo comprimido (no importa la herramienta) con el backup de la carpeta /etc
-12. Elimine el archivo .....
+12. Elimine el archivo /etc/issue.net
 13. Envie la salida estandar del comando netstat -ntpl al archivo /tmp/puertos_tcp.txt (Si no esta instalado el paquete netstat instalelo
 14. Incluya este mensaje en el archivo /etc/issue, para que cuadno un usuario haga login visualice esta informacion
-15. Busque en el el archivo de log /var/log/message o /var/log/secure los **logins** exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
+15. Busque en el el archivo de log /var/log/message o /var/log/secure las **autenticaciones** exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
 16. La zona horarioa debe ser America/Bogota
 17. Todas las configuraciones deben sobrevivir a un reinicio
 18. Envie el archivo kickstar como plantilla 
@@ -41,7 +41,20 @@ Si tiene la posibilidad de contar con un sistema de maquinas virtuales en su por
 
 https://www.katacoda.com/courses/centos/playground
 
-Con la limitacion que este ambiente unicamente dura 10 minutos, asi que deberia sacar las evidencias de los resultados durante este tiempo
+Con la limitacion que este ambiente unicamente puede durar 10 minutos o en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas
+
+# Calificaciones
+Para las calificaciones hay 2 opciones.
+## Manual
+En cada uno de los pasos mensionados anteriormente enviar la salida de los comandos que permita ver la evidencia que el punto fue desarrollado
+
+## Automatica
+Se creo un script llamado `caso1.sh` que se encargara de ejecutar los diferentes comandos para validar las evidencias de forma automatica, generando una salida en el archivo de texto caso1.txt el cual se le solicitara que envie como evidencia
+
+# NOTAS
+NOTA1: Este script de validacion debe ejecutarse como usuario root
+NOTA2: Tenga en cuanta que este script busca los nombres exactos de los archivos solicitados
+NOTA3: Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus concimientos
 
 
 
