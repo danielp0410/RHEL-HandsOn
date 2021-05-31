@@ -35,9 +35,15 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 
 # Instrucciones
 
-Los casos de uso pueden ser aplicados sobre sistema operativos, RHEL7, RHEL8, CentOS7, CentOS8
+Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
 Si tiene la posibilidad de contar con un sistema de maquinas virtuales en su portatil y/o laboratorio local, le recomiendo hacer la instalacion desde cero como se indica en el punto numero 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
+
+https://www.katacoda.com/courses/centos/playground
+
+Con la limitacion que este ambiente unicamente dura 10 minutos, asi que deberia sacar las evidencias de los resultados durante este tiempo
+
+
 
 
 [Volver](README.md) 
