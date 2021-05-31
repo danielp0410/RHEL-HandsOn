@@ -5,7 +5,7 @@
 
 ## Descripcion del Caso
 
-El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**, teniendo en cuenta que esta actividad la debe realizar múltiples veces, y antes de ser llevada a producción debe ser probada y validada por múltiples equipos, entre ellos el de seguridad, Le han solicitado que previo a dicha implementación productiva, quisiera contar con un servidor de sirva como plantilla, el cual cumpla con los siguientes requisitos previos a la entrega
+El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**. Esta actividad se debe realizar múltiples veces, antes de ser llevada a producción debe ser probada y validada por múltiples equipos (entre ellos el de seguridad). De acuerdo a lo anterior, le han solicitado que previo a dicha implementación productiva, se requiere contar con un servidor que sirva como plantilla, y que cumpla con los siguientes requisitos previos a la entrega.
 
 ## Actividades a realizar
 
