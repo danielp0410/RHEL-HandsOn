@@ -2,7 +2,7 @@
 Repositorio con una serie de ejercicios para poner en practica los conocimientos aprendidos durante los cursos RH124 y RH134
 
 
-### De acuerdo con la informacion oficial de la pagina del curso de Red Hat *RH124*  Red Hat System Administration I
+### Informacion oficial de la pagina del curso *RH124 ( Red Hat System Administration I )*
 
 
 ## Descripción del curso
