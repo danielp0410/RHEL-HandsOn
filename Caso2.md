@@ -4,7 +4,7 @@
 
 ## Descripcion del Caso
 
-La transportadora **Mi Cacharrito** se encuentra implementando un servidor de archivos para almacenar todas las guias de transporte en un servidor de archivos compartido y asi poder ser mas agiles un muchos tramites, para esto contrataron una compañia especializada en sistemas de informacion que implementaran un software llamado **AHINO!** el cual corres sobre sistemas operativos Linux como **Red Hat Enterprise Linux** pero solicitan que previo a la instalacion del software el cliente debe entregar una maquina lista, ya que ellos unicamente instalaran el software.
+La transportadora **Mi Cacharrito** se encuentra implementando un servidor para almacenar todas las guias de transporte en un servidor de archivos compartido y asi poder ser mas agiles con muchos de sus tramites. Para esto contrataron una compañia especializada en sistemas de informacion que implementaran un software llamado **AHINO!** el cual se ejecuta sobre sistemas operativos Linux como **Red Hat Enterprise Linux** pero solicitan que previo a la instalacion del software el cliente debe entregar una maquina lista, ya que ellos unicamente instalaran el software.
 
 ## Actividades a realizar
 
