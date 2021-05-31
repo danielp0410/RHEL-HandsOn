@@ -3,7 +3,7 @@
 ![Ref](Images/red-hat-logo-d-sample_2.png)
 
 
-## Descripcion del Caso
+## Descripción del Caso
 
 El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**. Esta actividad se debe realizar múltiples veces, antes de ser llevada a producción debe ser probada y validada por múltiples equipos (entre ellos el de seguridad). De acuerdo a lo anterior, le han solicitado que previo a dicha implementación productiva, se requiere contar con un servidor que sirva como plantilla, y que cumpla con los siguientes requisitos previos a la entrega.
 
@@ -22,9 +22,9 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 11. Dentro de esta carpeta /compartida, debe crear un primer archivo comprimido (no importa la herramienta) con el backup de la carpeta /etc
 12. Elimine el archivo /etc/issue.net
 13. Envie la salida estandar del comando netstat -ntpl al archivo /tmp/puertos_tcp.txt (Si no esta instalado el paquete netstat instalelo
-14. Incluya el mensaje "Welcome to the Jungle" en el archivo /etc/issue, para que cuando un usuario haga login visualice esta informacion
+14. Incluya el mensaje "Welcome to the Jungle" en el archivo /etc/issue, para que cuando un usuario haga login visualice esta información
 15. Busque en el el archivo de log /var/log/message o /var/log/secure las **autenticaciones** exitosos y fallidos al sistema operativo y guarde el resultado como logins.txt en la carpeta /compartida/
-16. La zona horarioa debe ser America/Bogota
+16. La zona horaria debe ser America/Bogota
 17. Todas las configuraciones deben sobrevivir a un reinicio
 18. Envie el archivo kickstar como plantilla 
 
@@ -37,38 +37,36 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 
 Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
-Si tiene la posibilidad de contar con un sistema de maquinas virtuales en su portatil y/o laboratorio local, le recomiendo hacer la instalacion desde cero como se indica en el punto numero 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
+Si tiene la posibilidad de contar con un sistema de máquinas virtuales en su portátil y/o laboratorio local, le recomiendo hacer la instalación desde cero como se indica en el punto número 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
 
 https://www.katacoda.com/courses/centos/playground
 
-Con la limitacion que este ambiente unicamente puede durar 10 minutos o en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas
+Con la limitación que este ambiente únicamente puede durar 10 minutos o en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas
 
 # Calificaciones
 Para las calificaciones hay 2 opciones.
 ## Manual
-En cada uno de los pasos mensionados anteriormente enviar la salida de los comandos que permita ver la evidencia que el punto fue desarrollado
+En cada uno de los pasos mencionados anteriormente enviar la salida de los comandos que permite ver la evidencia que el punto fue desarrollado
 
-## Automatica
-Se creo un script llamado `caso1.sh` que se encargara de ejecutar los diferentes comandos para validar las evidencias de forma automatica, generando una salida en el archivo de texto caso1.txt el cual se le solicitara que envie como evidencia
+## Automática
+Se creó un script llamado `caso1.sh` que se encargará de ejecutar los diferentes comandos para validar las evidencias de forma automática, generando una salida en el archivo de texto caso1.txt el cual se le solicitará que envíe como evidencia
 
-Si su maquina cuenta con internet, puede ejecutar este comando en su maquina Linux
+Si su máquina cuenta con internet, puede ejecutar este comando en su máquina Linux
 ```
 # wget https://raw.githubusercontent.com/jmanuelcalvo/RHEL-HandsOn/main/caso1.sh
 ```
-y luego ejecutelo como usuario root sobre su maquina para la calificacion
+y luego ejecutarlo como usuario root sobre su máquina para la calificación
 ```
 sh caso1.sh 
 ```
 
 
 # NOTAS
-*NOTA1:* Este script de validacion debe ejecutarse como usuario root
+*NOTA 1:* Este script de validación debe ejecutarse como usuario root
 
-*NOTA2:* Tenga en cuanta que este script busca los nombres exactos de los archivos solicitados
+*NOTA 2:* Tenga en cuenta que este script busca los nombres exactos de los archivos solicitados
 
-*NOTA3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus concimientos
-
-
+*NOTA 3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus conocimientos
 
 
 [Volver](README.md) 
