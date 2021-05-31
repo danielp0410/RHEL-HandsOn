@@ -124,7 +124,7 @@ echo >> caso2.txt
 
 echo "13 Indique la versión exacta del sistema operativo"
 echo "Punto 13" >> caso2.txt
-read "Nombre del S.O, version, release"
+echo -n  "   Nombre del S.O, version, release:"
 read so
 echo $so >> caso2.txt
 echo >> caso2.txt
