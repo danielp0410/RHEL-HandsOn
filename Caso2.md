@@ -55,7 +55,7 @@ Si su máquina cuenta con internet, puede ejecutar este comando en su máquina L
 ```
 y luego ejecutarlo como usuario root sobre su máquina para la calificación
 ```
-sh caso2.sh 
+# sh caso2.sh 
 ```
 
 
