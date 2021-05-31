@@ -67,6 +67,8 @@ y luego ejecutarlo como usuario root sobre su máquina para la calificación
 *NOTA 3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus conocimientos
 
 
+[Caso No. 1](Caso1.md) 
+
 [Volver](README.md)
 
 
