@@ -154,8 +154,8 @@ echo >> caso2.txt
 echo "18 Indique qué sistema de archivos tiene su partición /" 
 echo "Punto 18" >> caso2.txt
 echo -n "   Sistema de archivos: "
-read fstype
-echo $fstype >> caso2.txt
+read fs1
+echo $fs1 >> caso2.txt
 df -Th / >> caso2.txt
 
 read 
