@@ -2,22 +2,22 @@
 
 ![Ref](Images/red-hat-logo-d-sample_2.png)
 
-## Descripcion del Caso
+## DESCRIPCIÓN DEL CASO 2
 
-La transportadora **Mi Cacharrito** Se encuentra implementando un servidor para almacenar todas las guías de transporte en un servidor de archivos compartido y así poder ser más ágiles con muchos de sus trámites. Para esto contrataron una compañía especializada en sistemas de información que implementaran un software llamado **AHINO!** el cual se ejecuta sobre sistemas operativos Linux como **Red Hat Enterprise Linux**. El proveedor del software solicita que, previo a la instalación del producto, se entregue una maquina lista, ya que ellos únicamente instalarán el software.
+La empresa líder en logística de transporte de mercancía del país se encuentra implementando un servidor para almacenar todas las guías de servicio en un servidor de archivos compartido para ser más ágil en sus procesos. Para esto contrataron una compañía especializada en sistemas de información que implementaran un software encargado de integrar las operaciones de recolección, despacho y reparto, el cual se ejecuta sobre sistemas operativos Linux como Red Hat Enterprise Linux. El proveedor del software solicita que, previo a la instalación del producto, se entregue una maquina lista, ya que ellos únicamente instalarán el software.
 
-## Actividades a realizar
+## ACTIVIDADES A REALIZAR
 
 Los Pre-requisitos para la instalación del software son:
 
-1. Garantizar que el el sistema operativo se encuentre full actualizado (no debe tener actualizaciones pendientes)
+1. Garantizar que el sistema operativo se encuentre totalmente actualizado (no debe tener actualizaciones pendientes)
 2. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
 3. Debe tener el servicio de SELinux activo
 4. Debe tener el servicio de firewalld en ejecución y con los puertos 22 (SSH) y el servicio de firewall *samba* 
 5. El servicio de SSH **NO** debe permitir hacer sessiones graficas por SSH (X11Forwarding)
-6. Debe crear cinco (5) usuarios adicional con su respectivas contraseñas seguras asignadas: compras, comercial, ventas, administrativo, soporte
-7. Todos estos usuario deben pertenecer a un grupo adicional llamado *ahino*
-8. Las contraseñas de estos usuarios debe caducar cada 3 meses
+6. Debe crear cinco (5) usuarios adicionales con su respectivas contraseñas seguras asignadas: compras, comercial, ventas, administrativo, soporte
+7. Todos estos usuarios deben pertenecer a un grupo adicional llamado *ahino*
+8. Las contraseñas de estos usuarios deben caducar cada 3 meses
 9. Debe tener instalado la última versión de los paquetes: samba y samba-client
 10. Debe crear una carpeta llamada /guias que pertenezca al grupo ahino y que los usuario que pertenezcan a este grupo puedan leer, escribir, ejecutar sobre esta carpeta
 11. Cree 100 archivos de texto vacíos sobre la carpeta /guias con el nombre que usted desee
@@ -31,7 +31,7 @@ Los Pre-requisitos para la instalación del software son:
 
 
 
- Instrucciones
+# INSTRUCCIONES
 
 Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
@@ -47,7 +47,7 @@ https://www.katacoda.com/courses/centos/playground
 
 Para ingresar a esta plataforma, se requiere registro, es rapido, con la limitación que este ambiente únicamente puede durar 10 minutos y en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas.
 
-# Calificaciones
+# CALIFICACIONES
 Para calificar hay 2 opciones de envio de resultados.
 
 ## Recopilacion de resultados de forma Manual
