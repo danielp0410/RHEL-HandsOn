@@ -1,8 +1,7 @@
 # RHEL-HandsOn
 ![Ref](Images/red-hat-logo-d-sample_2.png)
 
-Repositorio con una serie de ejercicios para poner en practica los conocimientos aprendidos durante los cursos RH124 y RH134
-
+Repositorio con una serie de ejercicios para poner en practica los conocimientos aprendidos durante los cursos RH124
 
 ### Informacion oficial de la pagina del curso *RH124 ( Red Hat System Administration I )*
 
@@ -37,8 +36,8 @@ Ofrece las habilidades indispensables para administrar Linux®, ya que cubre los
 Realice una evaluación sin costo para determinar si esta oferta es la más conveniente en función de sus habilidades.
 
 
-# Laboratorios
-Teniendo en cuenta lo anterior, y dando continuidad a las actividades relacionadas con el programa, hemos preparados estos 2 casos de uso que estan muy asociados con el dia a dia en los requerimientos de clientes reales y del dia a dia y en donde podran aplicar lo aprendido durante el curso **RH124**
+# Casos de Uso
+Teniendo en cuenta lo anterior y dando continuidad a las actividades relacionadas con el programa, hemos recibido estos casos de uso, que estan muy asociados con el dia a dia en los requerimientos de clientes reales y donde se podrá aplicar lo aprendido durante el curso **RH124**
 
 [Caso No. 1](Caso1.md) 
 
