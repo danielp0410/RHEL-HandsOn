@@ -1,16 +1,16 @@
-# Caso No. 1
+# CASO No. 1
 
 ![Ref](Images/red-hat-logo-d-sample_2.png)
 
 
-## Descripción del Caso
+## DESCRIPCIÓN DEL CASO 1
 
-El **Banco Oro Sólido** requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo **Red Hat Enterprise Linux**. Esta actividad se debe realizar múltiples veces, antes de ser llevada a producción debe ser probada y validada por múltiples equipos (entre ellos el de seguridad). De acuerdo a lo anterior, le han solicitado que previo a dicha implementación productiva, se requiere contar con un servidor que sirva como plantilla, y que cumpla con los siguientes requisitos previos a la entrega.
+Una reconocida entidad financiera de la ciudad de Medellín requiere implementar una solución de base de datos en un cluster de 3 nodos sobre un sistema operativo Red Hat Enterprise Linux. Esta actividad se debe realizar múltiples veces y antes de ser llevada a producción será probada y validada por varios equipos de trabajo (entre ellos el de seguridad). De acuerdo con lo anterior, se informa que previamente a dicha implementación productiva, se requiere contar con un servidor que sirva como plantilla y que cumpla con los siguientes requisitos para la entrega.
 
-## Actividades a realizar
+## ACTIVIDADES A REALIZAR
 
-1. Idealmente debe ser una instalación fresca y nueva. (iniciando desde 0)
-2. Debe estar full actualizado a la fecha (no debe tener actualizaciones pendientes)
+1. Debe ser una instalación nueva. (iniciando desde 0)
+2. Debe estar completamente actualizado hasta la fecha (no debe tener actualizaciones pendientes)
 3. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
 4. Debe tener el servicio de SELinux activo
 5. Debe tener el servicio de firewalld en ejecución y con los puertos 22 (SSH) y 5432 (PostgreSQL) abiertos.
@@ -33,7 +33,7 @@ El **Banco Oro Sólido** requiere implementar una solución de base de datos en 
 
 
 
-# Instrucciones
+# INSTRUCCIONES
 
 Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
@@ -49,7 +49,7 @@ https://www.katacoda.com/courses/centos/playground
 
 Para ingresar a esta plataforma, se requiere registro, es rapido, con la limitación que este ambiente únicamente puede durar 10 minutos y en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas.
 
-# Calificaciones
+# CALIFICACIONES
 Para calificar hay 2 opciones de envio de resultados.
 
 ## Recopilacion de resultados de forma Manual
