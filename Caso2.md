@@ -31,23 +31,30 @@ Los Pre-requisitos para la instalación del software son:
 
 
 
-# Instrucciones
+ Instrucciones
 
 Los casos de uso pueden ser aplicados sobre sistema operativos Red Hat, RHEL7, RHEL8 o CentOS7, CentOS8
 
-Si tiene la posibilidad de contar con un sistema de máquinas virtuales en su portátil y/o laboratorio local, le recomiendo hacer la instalación desde cero como se indica en el punto número 1. En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
+Como recomendación principal es contar con un sistema de máquinas virtuales en su equipo de mesa o portátil y/o laboratorio local, le recomendamos realizar la instalación desde cero de la imagen del Sistema operativo elegido, como se indica en el punto número 1.
+
+La imagen del Sistema operativo RHEL8 se encuentra en esta ruta, https://developers.redhat.com/download-manager/file/rhel-8.1-x86_64-dvd.iso. 
+
+Adicionalemente instalamos la aplicacion VMWare desde el siguiente Link, https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html, aqui encontraremos las versiones para Windows y para linux, para tener en cuenta VMWare ofrece una prueba de 30 dias de uso gratis, tiempo suficiente para realizar las pruebas requeridas.
+
+En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
 
 https://www.katacoda.com/courses/centos/playground
 
-Con la limitación que este ambiente únicamente puede durar 10 minutos o en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas
+Para ingresar a esta plataforma, se requiere registro, es rapido, con la limitación que este ambiente únicamente puede durar 10 minutos y en caso que el trabajo sea constante puede durar hasta 1 hora (NO MAS DE ESTO), asi que deberia sacar las evidencias de los resultados durante este tiempo, dicha terminal deja copiar y pegar entre pantallas.
 
 # Calificaciones
-Para las calificaciones hay 2 opciones.
-## Manual
-En cada uno de los pasos mencionados anteriormente enviar la salida de los comandos que permite ver la evidencia que el punto fue desarrollado
+Para calificar hay 2 opciones de envio de resultados.
 
-## Automática
-Se creó un script llamado `caso1.sh` que se encargará de ejecutar los diferentes comandos para validar las evidencias de forma automática, generando una salida en el archivo de texto caso1.txt el cual se le solicitará que envíe como evidencia
+## Recopilacion de resultados de forma Manual
+En cada uno de los pasos mencionados anteriormente enviar la salida de los comandos que permite ver la evidencia que el punto fue desarrollado, por medio de la herramienta de su preferencia, sea Word con imagenes descriptivas, presentaciones, archivos txt, Etc.
+
+## Recopilacion de resultados de forma Automática
+Se creó un script llamado `caso2.sh` que se encargará de ejecutar los diferentes comandos para validar las evidencias de forma automática, generando una salida en el archivo de texto caso1.txt el cual se le solicitará que envíe como evidencia, exportandolo desde su maquina.
 
 Si su máquina cuenta con internet, puede ejecutar este comando en su máquina Linux
 ```
@@ -64,7 +71,7 @@ y luego ejecutarlo como usuario root sobre su máquina para la calificación
 
 *NOTA 2:* Tenga en cuenta que este script busca los nombres exactos de los archivos solicitados
 
-*NOTA 3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que usted pueda validar sus conocimientos
+*NOTA 3:* Intente **NO** compartir el archivo de resultado con sus compañeros, la idea es que pueda validar sus conocimientos
 
 
 [Caso No. 1](Caso1.md) 
