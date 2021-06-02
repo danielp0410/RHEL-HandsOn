@@ -3,9 +3,9 @@
 El administrador del departamento de sistemas de uno de los grupos de comercio al detal más reconocido del país necesita configurar un servidor para labores de servicio al cliente con las siguientes características:
 
 ## ACTIVIDADES A REALIZAR
-1. SO nuevo
-2. SO actualizado
-3. Configurar Dirección IP, Mascara, Puerta de enlace, DNS
+1. Debe ser una instalación nueva. (iniciando desde 0)
+2. Debe estar completamente actualizado hasta la fecha (no debe tener actualizaciones pendientes)
+3. Debe tener Red configurada con: (Direccion IP, Mascara, Puerta de enlace, DNS)
 4. Deben existir 2 perfiles de usuario: user1 y user2
 5. Cada usuario debe tener una contraseña segura
 6. El user1 no puede navegar en URL públicas
