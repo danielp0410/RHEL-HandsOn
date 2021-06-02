@@ -39,7 +39,9 @@ Como recomendación principal es contar con un sistema de máquinas virtuales en
 
 La imagen del Sistema operativo RHEL8 se encuentra en esta ruta, https://developers.redhat.com/download-manager/file/rhel-8.1-x86_64-dvd.iso. 
 
-Adicionalemente instalamos la aplicacion VMWare desde el siguiente Link, https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html, aqui encontraremos las versiones para Windows y para linux, para tener en cuenta VMWare ofrece una prueba de 30 dias de uso gratis, tiempo suficiente para realizar las pruebas requeridas.
+Adicionalemente instalamos la aplicacion Virtual Box desde el siguiente Link, https://www.virtualbox.org/wiki/Downloads, aqui encontraremos las versiones para el SO de preferencia en el apartado "VirtualBox 6.1.22 platform packages".
+
+Es muy importante que antes de realizar las instalaciones, se debe activar la Virtualizacion del equipo, esto se realiza principalmente desde la configuracion de la BIOS.
 
 En caso de no poder contar con dicho laboratorio, puede realizar el 90% de los puntos en este link:
 
