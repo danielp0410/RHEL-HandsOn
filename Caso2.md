@@ -56,7 +56,7 @@ Para calificar hay 2 opciones de envio de resultados.
 En cada uno de los pasos mencionados anteriormente enviar la salida de los comandos que permite ver la evidencia que el punto fue desarrollado, por medio de la herramienta de su preferencia, sea Word con imagenes descriptivas, presentaciones, archivos txt, Etc.
 
 ## Recopilacion de resultados de forma Automática
-Se creó un script llamado `caso2.sh` que se encargará de ejecutar los diferentes comandos para validar las evidencias de forma automática, generando una salida en el archivo de texto caso1.txt el cual se le solicitará que envíe como evidencia, exportandolo desde su maquina.
+Se creó un script llamado `caso2.sh` que se encargará de ejecutar los diferentes comandos para validar las evidencias de forma automática, generando una salida en el archivo de texto caso2.txt el cual se le solicitará que envíe como evidencia, exportandolo desde su maquina.
 
 Si su máquina cuenta con internet, puede ejecutar este comando en su máquina Linux
 ```
