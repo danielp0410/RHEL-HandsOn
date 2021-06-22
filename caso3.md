@@ -11,7 +11,7 @@ El administrador del departamento de sistemas de uno de los grupos de comercio a
 6. El user1 no puede navegar en URL públicas
 7. El user2 puede navegar en URL públicas
 8. El servicio de SSH NO debe permitir conexiones del usuario root
-9. Cree una tarea crontab que busque los archivos .tmp y los borre cada 2 minutos.
+9. Cree una tarea crontab que busque los archivos de carpetas /tmp y /var/tmp y los borre cada 2 minutos.
 
 
 
